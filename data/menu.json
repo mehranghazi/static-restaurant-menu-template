@@ -1,0 +1,201 @@
+{
+  "categories": [
+    {
+      "id": "coffee-tea",
+      "name": "Coffee & Tea",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "espresso",
+          "name": "Espresso",
+          "nameAlt": null,
+          "description": "A short, strong shot of freshly ground coffee.",
+          "price": 2.5,
+          "image": "images/menu/espresso.jpg",
+          "imageAlt": "A cup of espresso"
+        },
+        {
+          "id": "cappuccino",
+          "name": "Cappuccino",
+          "nameAlt": null,
+          "description": "Espresso with steamed milk and a thick layer of foam.",
+          "price": 3.5,
+          "image": "images/menu/cappuccino.jpg",
+          "imageAlt": "A cappuccino dusted with cocoa"
+        },
+        {
+          "id": "latte",
+          "name": "Caffè Latte",
+          "nameAlt": null,
+          "description": "Smooth espresso with plenty of silky milk.",
+          "price": 3.8,
+          "image": "images/menu/latte.jpg",
+          "imageAlt": "A latte with leaf art"
+        },
+        {
+          "id": "iced-tea",
+          "name": "Iced Tea",
+          "nameAlt": null,
+          "description": "Black tea over ice with a slice of lemon.",
+          "price": 3,
+          "image": "images/menu/iced-tea.jpg",
+          "imageAlt": "A glass of iced tea with lemon"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "margherita-pizza",
+          "name": "Margherita",
+          "nameAlt": null,
+          "description": "Tomato sauce, mozzarella and fresh basil. 12 inch.",
+          "price": 9,
+          "image": "images/menu/margherita-pizza.jpg",
+          "imageAlt": "A margherita pizza"
+        },
+        {
+          "id": "pepperoni-pizza",
+          "name": "Pepperoni",
+          "nameAlt": null,
+          "description": "Tomato sauce, mozzarella and spicy pepperoni. 12 inch.",
+          "price": 10.5,
+          "image": "images/menu/pepperoni-pizza.jpg",
+          "imageAlt": "A pepperoni pizza"
+        },
+        {
+          "id": "veggie-pizza",
+          "name": "Veggie Garden",
+          "nameAlt": null,
+          "description": "Peppers, tomatoes, olives and mozzarella. 12 inch.",
+          "price": 9.5,
+          "image": "images/menu/veggie-pizza.jpg",
+          "imageAlt": "A vegetable pizza"
+        }
+      ]
+    },
+    {
+      "id": "burgers-sandwiches",
+      "name": "Burgers & Sandwiches",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "classic-burger",
+          "name": "Classic Burger",
+          "nameAlt": null,
+          "description": "Beef patty, lettuce, tomato and house sauce in a toasted bun.",
+          "price": 8.5,
+          "image": "images/menu/classic-burger.jpg",
+          "imageAlt": "A classic burger"
+        },
+        {
+          "id": "cheeseburger",
+          "name": "Cheeseburger",
+          "nameAlt": null,
+          "description": "Our classic burger with melted cheddar.",
+          "price": 9,
+          "image": "images/menu/cheeseburger.jpg",
+          "imageAlt": "A cheeseburger"
+        },
+        {
+          "id": "ham-cheese-baguette",
+          "name": "Ham & Cheese Baguette",
+          "nameAlt": null,
+          "description": "Ham, cheese, tomato and lettuce in a fresh baguette.",
+          "price": 6.5,
+          "image": "images/menu/ham-cheese-baguette.jpg",
+          "imageAlt": "A ham and cheese baguette"
+        },
+        {
+          "id": "hot-dog",
+          "name": "Hot Dog",
+          "nameAlt": null,
+          "description": "Grilled sausage in a soft bun with ketchup and mustard.",
+          "price": 5,
+          "image": "images/menu/hot-dog.jpg",
+          "imageAlt": "A hot dog"
+        }
+      ]
+    },
+    {
+      "id": "salads-pasta",
+      "name": "Salads & Pasta",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "garden-salad",
+          "name": "Garden Salad",
+          "nameAlt": null,
+          "description": "Mixed greens, tomato, cucumber and olives with a light dressing.",
+          "price": 6.5,
+          "image": "images/menu/garden-salad.jpg",
+          "imageAlt": "A bowl of garden salad"
+        },
+        {
+          "id": "creamy-pasta",
+          "name": "Creamy Pasta",
+          "nameAlt": null,
+          "description": "Pasta in a creamy sauce with herbs and cherry tomatoes.",
+          "price": 8.5,
+          "image": "images/menu/creamy-pasta.jpg",
+          "imageAlt": "A plate of creamy pasta"
+        }
+      ]
+    },
+    {
+      "id": "sides-desserts",
+      "name": "Sides & Desserts",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "french-fries",
+          "name": "French Fries",
+          "nameAlt": null,
+          "description": "Crispy golden fries with a pinch of salt.",
+          "price": 3.5,
+          "image": "images/menu/french-fries.jpg",
+          "imageAlt": "A portion of french fries"
+        },
+        {
+          "id": "garlic-bread",
+          "name": "Garlic Bread",
+          "nameAlt": null,
+          "description": "Oven-baked bread with garlic butter and parsley.",
+          "price": 4,
+          "image": "images/menu/garlic-bread.jpg",
+          "imageAlt": "Garlic bread"
+        },
+        {
+          "id": "chocolate-cake",
+          "name": "Chocolate Cake",
+          "nameAlt": null,
+          "description": "A rich layered chocolate cake topped with a cherry.",
+          "price": 4.5,
+          "image": "images/menu/chocolate-cake.jpg",
+          "imageAlt": "A slice of chocolate cake"
+        },
+        {
+          "id": "cola-bottle",
+          "name": "Cola",
+          "nameAlt": null,
+          "description": "330 ml bottle.",
+          "price": 2,
+          "image": "images/menu/cola-bottle.jpg",
+          "imageAlt": "A bottle of cola"
+        },
+        {
+          "id": "seasonal-special",
+          "name": "Seasonal Special",
+          "nameAlt": null,
+          "description": "An example item without a photo: the card shows a neutral placeholder.",
+          "price": 7,
+          "image": null,
+          "imageAlt": "Seasonal special"
+        }
+      ]
+    }
+  ]
+}

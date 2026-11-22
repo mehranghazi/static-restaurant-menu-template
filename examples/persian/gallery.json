@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "thumb": "images/gallery/photo-1-thumb.jpg",
+      "full": "images/gallery/photo-1.jpg",
+      "alt": "پیتزا مارگاریتا"
+    },
+    {
+      "thumb": "images/gallery/photo-2-thumb.jpg",
+      "full": "images/gallery/photo-2.jpg",
+      "alt": "کلاسیک برگر"
+    },
+    {
+      "thumb": "images/gallery/photo-3-thumb.jpg",
+      "full": "images/gallery/photo-3.jpg",
+      "alt": "لاته"
+    },
+    {
+      "thumb": "images/gallery/photo-4-thumb.jpg",
+      "full": "images/gallery/photo-4.jpg",
+      "alt": "سالاد باغ"
+    },
+    {
+      "thumb": "images/gallery/photo-5-thumb.jpg",
+      "full": "images/gallery/photo-5.jpg",
+      "alt": "کیک شکلاتی"
+    },
+    {
+      "thumb": "images/gallery/photo-6-thumb.jpg",
+      "full": "images/gallery/photo-6.jpg",
+      "alt": "پاستا خامه‌ای"
+    },
+    {
+      "thumb": "images/gallery/photo-7-thumb.jpg",
+      "full": "images/gallery/photo-7.jpg",
+      "alt": "پیتزا پپرونی"
+    },
+    {
+      "thumb": "images/gallery/photo-8-thumb.jpg",
+      "full": "images/gallery/photo-8.jpg",
+      "alt": "سیب‌زمینی سرخ‌کرده"
+    }
+  ]
+}

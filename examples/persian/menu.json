@@ -1,0 +1,201 @@
+{
+  "categories": [
+    {
+      "id": "coffee-tea",
+      "name": "قهوه و چای",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "espresso",
+          "name": "اسپرسو",
+          "nameAlt": null,
+          "description": "یک شات کوتاه و پررنگ از قهوه تازه‌آسیاب‌شده.",
+          "price": 250,
+          "image": "images/menu/espresso.jpg",
+          "imageAlt": "تصویر اسپرسو"
+        },
+        {
+          "id": "cappuccino",
+          "name": "کاپوچینو",
+          "nameAlt": null,
+          "description": "اسپرسو با شیر بخارداده و کف غلیظ.",
+          "price": 350,
+          "image": "images/menu/cappuccino.jpg",
+          "imageAlt": "تصویر کاپوچینو"
+        },
+        {
+          "id": "latte",
+          "name": "کافه لاته",
+          "nameAlt": null,
+          "description": "اسپرسوی نرم همراه با شیر فراوان.",
+          "price": 380,
+          "image": "images/menu/latte.jpg",
+          "imageAlt": "تصویر کافه لاته"
+        },
+        {
+          "id": "iced-tea",
+          "name": "چای سرد",
+          "nameAlt": null,
+          "description": "چای سیاه با یخ و یک برش لیمو.",
+          "price": 300,
+          "image": "images/menu/iced-tea.jpg",
+          "imageAlt": "تصویر چای سرد"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "پیتزا",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "margherita-pizza",
+          "name": "مارگاریتا",
+          "nameAlt": null,
+          "description": "سس گوجه، پنیر موزارلا و ریحان تازه. ۳۰ سانتی‌متری.",
+          "price": 900,
+          "image": "images/menu/margherita-pizza.jpg",
+          "imageAlt": "تصویر مارگاریتا"
+        },
+        {
+          "id": "pepperoni-pizza",
+          "name": "پپرونی",
+          "nameAlt": null,
+          "description": "سس گوجه، موزارلا و پپرونی تند. ۳۰ سانتی‌متری.",
+          "price": 1050,
+          "image": "images/menu/pepperoni-pizza.jpg",
+          "imageAlt": "تصویر پپرونی"
+        },
+        {
+          "id": "veggie-pizza",
+          "name": "سبزیجات",
+          "nameAlt": null,
+          "description": "فلفل دلمه‌ای، گوجه، زیتون و موزارلا. ۳۰ سانتی‌متری.",
+          "price": 950,
+          "image": "images/menu/veggie-pizza.jpg",
+          "imageAlt": "تصویر سبزیجات"
+        }
+      ]
+    },
+    {
+      "id": "burgers-sandwiches",
+      "name": "برگر و ساندویچ",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "classic-burger",
+          "name": "کلاسیک برگر",
+          "nameAlt": null,
+          "description": "برگر گوشت، کاهو، گوجه و سس مخصوص در نان برشته.",
+          "price": 850,
+          "image": "images/menu/classic-burger.jpg",
+          "imageAlt": "تصویر کلاسیک برگر"
+        },
+        {
+          "id": "cheeseburger",
+          "name": "چیز برگر",
+          "nameAlt": null,
+          "description": "برگر کلاسیک با پنیر چدار ذوب‌شده.",
+          "price": 900,
+          "image": "images/menu/cheeseburger.jpg",
+          "imageAlt": "تصویر چیز برگر"
+        },
+        {
+          "id": "ham-cheese-baguette",
+          "name": "ساندویچ ژامبون و پنیر",
+          "nameAlt": null,
+          "description": "ژامبون، پنیر، گوجه و کاهو در نان باگت تازه.",
+          "price": 650,
+          "image": "images/menu/ham-cheese-baguette.jpg",
+          "imageAlt": "تصویر ساندویچ ژامبون و پنیر"
+        },
+        {
+          "id": "hot-dog",
+          "name": "هات‌داگ",
+          "nameAlt": null,
+          "description": "سوسیس گریل‌شده در نان نرم با کچاپ و خردل.",
+          "price": 500,
+          "image": "images/menu/hot-dog.jpg",
+          "imageAlt": "تصویر هات‌داگ"
+        }
+      ]
+    },
+    {
+      "id": "salads-pasta",
+      "name": "سالاد و پاستا",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "garden-salad",
+          "name": "سالاد باغ",
+          "nameAlt": null,
+          "description": "سبزیجات تازه، گوجه، خیار و زیتون با سس سبک.",
+          "price": 650,
+          "image": "images/menu/garden-salad.jpg",
+          "imageAlt": "تصویر سالاد باغ"
+        },
+        {
+          "id": "creamy-pasta",
+          "name": "پاستا خامه‌ای",
+          "nameAlt": null,
+          "description": "پاستا با سس خامه، سبزی معطر و گوجه گیلاسی.",
+          "price": 850,
+          "image": "images/menu/creamy-pasta.jpg",
+          "imageAlt": "تصویر پاستا خامه‌ای"
+        }
+      ]
+    },
+    {
+      "id": "sides-desserts",
+      "name": "پیش‌غذا و دسر",
+      "nameAlt": null,
+      "items": [
+        {
+          "id": "french-fries",
+          "name": "سیب‌زمینی سرخ‌کرده",
+          "nameAlt": null,
+          "description": "سیب‌زمینی طلایی و ترد با کمی نمک.",
+          "price": 350,
+          "image": "images/menu/french-fries.jpg",
+          "imageAlt": "تصویر سیب‌زمینی سرخ‌کرده"
+        },
+        {
+          "id": "garlic-bread",
+          "name": "نان سیر",
+          "nameAlt": null,
+          "description": "نان تنوری با کره سیر و جعفری.",
+          "price": 400,
+          "image": "images/menu/garlic-bread.jpg",
+          "imageAlt": "تصویر نان سیر"
+        },
+        {
+          "id": "chocolate-cake",
+          "name": "کیک شکلاتی",
+          "nameAlt": null,
+          "description": "کیک لایه‌ای شکلاتی با گیلاس.",
+          "price": 450,
+          "image": "images/menu/chocolate-cake.jpg",
+          "imageAlt": "تصویر کیک شکلاتی"
+        },
+        {
+          "id": "cola-bottle",
+          "name": "نوشابه",
+          "nameAlt": null,
+          "description": "بطری ۳۳۰ میلی‌لیتر.",
+          "price": 200,
+          "image": "images/menu/cola-bottle.jpg",
+          "imageAlt": "تصویر نوشابه"
+        },
+        {
+          "id": "seasonal-special",
+          "name": "پیشنهاد فصل",
+          "nameAlt": null,
+          "description": "نمونه‌ای از آیتم بدون عکس: کارت یک جایگزین ساده نشان می‌دهد.",
+          "price": 700,
+          "image": null,
+          "imageAlt": "تصویر پیشنهاد فصل"
+        }
+      ]
+    }
+  ]
+}

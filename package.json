@@ -1,0 +1,18 @@
+{
+  "name": "static-restaurant-menu-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A responsive, customizable static restaurant and cafe menu website with food images, search, categories, pricing, and gallery features.",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs",
+    "build:admin": "node scripts/build.mjs --with-admin",
+    "admin:setup": "node scripts/admin-setup.mjs",
+    "example:persian": "node scripts/use-example.mjs persian",
+    "example:english": "node scripts/use-example.mjs english"
+  }
+}

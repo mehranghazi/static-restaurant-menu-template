@@ -1,0 +1,117 @@
+{
+  "name": "کافه نمونه",
+  "tagline": "غذای تازه، قهوه خوب",
+  "description": "منوی کافه نمونه: قهوه، پیتزا، برگر، ساندویچ، سالاد، پاستا و دسرها.",
+  "language": "fa",
+  "direction": "rtl",
+  "siteUrl": "",
+  "theme": {
+    "themeColor": "#f7f1e6",
+    "bg": "#f7f1e6",
+    "surface": "#fffaf1",
+    "text": "#3a2a20",
+    "muted": "#6e5f52",
+    "accent": "#5f6b3a",
+    "accentDark": "#4c562e",
+    "accentSoft": "#e9ebd9",
+    "border": "#e2d7c3"
+  },
+  "brand": {
+    "logo": "images/brand/logo.png",
+    "favicon": "images/brand/favicon-32.png",
+    "faviconIco": "images/brand/favicon.ico",
+    "appleTouchIcon": "images/brand/apple-touch-icon.png",
+    "socialImage": "images/brand/og-image.jpg"
+  },
+  "currency": {
+    "locale": "fa-IR",
+    "label": "تومان",
+    "labelPosition": "after",
+    "unit": 1000,
+    "minimumFractionDigits": 0,
+    "maximumFractionDigits": 0
+  },
+  "features": {
+    "search": true,
+    "gallery": true,
+    "contact": true
+  },
+  "hero": {
+    "eyebrow": "منوی کافه",
+    "title": "",
+    "text": ""
+  },
+  "contact": {
+    "phone": {
+      "display": "+98 21 0000 0000",
+      "href": "+982100000000"
+    },
+    "address": "تهران، خیابان نمونه، پلاک ۱۲۳",
+    "hours": [
+      "شنبه تا پنجشنبه: ۹:۰۰ تا ۲۳:۰۰",
+      "جمعه: ۱۰:۰۰ تا ۲۳:۳۰"
+    ],
+    "messaging": [
+      {
+        "name": "تلگرام",
+        "url": "https://t.me/example"
+      }
+    ],
+    "social": [
+      {
+        "name": "اینستاگرام",
+        "url": "https://instagram.com/example"
+      }
+    ]
+  },
+  "maps": {
+    "lat": 35.689197,
+    "lng": 51.388974,
+    "providers": [
+      "neshan",
+      "balad",
+      "google",
+      "waze"
+    ],
+    "custom": [],
+    "names": {
+      "neshan": "نشان",
+      "balad": "بلد",
+      "google": "نقشه گوگل",
+      "waze": "ویز"
+    }
+  },
+  "footer": "© {year} {name}. تمامی حقوق محفوظ است.",
+  "labels": {
+    "skipLink": "رفتن به منو",
+    "nav": "ناوبری اصلی",
+    "navMenu": "منو",
+    "navGallery": "گالری",
+    "navContact": "تماس",
+    "heroButton": "مشاهده منو",
+    "menuTitle": "منو",
+    "categoriesNav": "دسته‌بندی منو",
+    "searchLabel": "جست‌وجو در منو",
+    "searchPlaceholder": "نام غذا یا نوشیدنی را بنویسید…",
+    "searchFound": "{count} آیتم پیدا شد.",
+    "searchNone": "آیتمی پیدا نشد.",
+    "emptyMessage": "آیتمی با این نام پیدا نشد. عبارت دیگری را امتحان کنید.",
+    "loadError": "بارگذاری منو با مشکل روبه‌رو شد. صفحه را دوباره بارگذاری کنید.",
+    "galleryTitle": "گالری",
+    "contactTitle": "تماس و آدرس",
+    "phone": "تلفن",
+    "address": "آدرس",
+    "hours": "ساعت کار",
+    "callButton": "تماس تلفنی",
+    "directionsTitle": "مسیریابی",
+    "messagingTitle": "پیام‌رسان",
+    "socialTitle": "شبکه‌های اجتماعی",
+    "viewPhoto": "مشاهده بزرگ تصویر {name}",
+    "viewGalleryPhoto": "مشاهده بزرگ تصویر {number}",
+    "lightboxLabel": "نمایش بزرگ تصویر",
+    "lightboxClose": "بستن",
+    "lightboxPrev": "تصویر قبلی",
+    "lightboxNext": "تصویر بعدی",
+    "lightboxCounter": "{current} از {total}"
+  }
+}

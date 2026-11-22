@@ -1,0 +1,4 @@
+# Apache only: never serve the password file or backups, even if someone guesses the URL.
+<FilesMatch "^(config\.php|config\.php\.bak)$">
+  Require all denied
+</FilesMatch>

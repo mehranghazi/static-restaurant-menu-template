@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "thumb": "images/gallery/photo-1-thumb.jpg",
+      "full": "images/gallery/photo-1.jpg",
+      "alt": "Margherita pizza"
+    },
+    {
+      "thumb": "images/gallery/photo-2-thumb.jpg",
+      "full": "images/gallery/photo-2.jpg",
+      "alt": "Classic burger"
+    },
+    {
+      "thumb": "images/gallery/photo-3-thumb.jpg",
+      "full": "images/gallery/photo-3.jpg",
+      "alt": "A latte with leaf art"
+    },
+    {
+      "thumb": "images/gallery/photo-4-thumb.jpg",
+      "full": "images/gallery/photo-4.jpg",
+      "alt": "Garden salad"
+    },
+    {
+      "thumb": "images/gallery/photo-5-thumb.jpg",
+      "full": "images/gallery/photo-5.jpg",
+      "alt": "Chocolate cake"
+    },
+    {
+      "thumb": "images/gallery/photo-6-thumb.jpg",
+      "full": "images/gallery/photo-6.jpg",
+      "alt": "Creamy pasta"
+    },
+    {
+      "thumb": "images/gallery/photo-7-thumb.jpg",
+      "full": "images/gallery/photo-7.jpg",
+      "alt": "Pepperoni pizza"
+    },
+    {
+      "thumb": "images/gallery/photo-8-thumb.jpg",
+      "full": "images/gallery/photo-8.jpg",
+      "alt": "French fries"
+    }
+  ]
+}

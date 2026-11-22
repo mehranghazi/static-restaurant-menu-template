@@ -1,0 +1,109 @@
+{
+  "name": "Sample Cafe",
+  "tagline": "Fresh food, good coffee",
+  "description": "Menu of Sample Cafe: coffee, pizza, burgers, sandwiches, salads, pasta and desserts.",
+  "language": "en",
+  "direction": "ltr",
+  "siteUrl": "",
+  "theme": {
+    "themeColor": "#f7f1e6",
+    "bg": "#f7f1e6",
+    "surface": "#fffaf1",
+    "text": "#3a2a20",
+    "muted": "#6e5f52",
+    "accent": "#5f6b3a",
+    "accentDark": "#4c562e",
+    "accentSoft": "#e9ebd9",
+    "border": "#e2d7c3"
+  },
+  "brand": {
+    "logo": "images/brand/logo.png",
+    "favicon": "images/brand/favicon-32.png",
+    "faviconIco": "images/brand/favicon.ico",
+    "appleTouchIcon": "images/brand/apple-touch-icon.png",
+    "socialImage": "images/brand/og-image.jpg"
+  },
+  "currency": {
+    "locale": "en-US",
+    "label": "$",
+    "labelPosition": "before",
+    "unit": 1,
+    "minimumFractionDigits": 2,
+    "maximumFractionDigits": 2
+  },
+  "features": {
+    "search": true,
+    "gallery": true,
+    "contact": true
+  },
+  "hero": {
+    "eyebrow": "Welcome",
+    "title": "",
+    "text": ""
+  },
+  "contact": {
+    "phone": {
+      "display": "+1 555 010 0100",
+      "href": "+15550100100"
+    },
+    "address": "123 Example Street, Sample City",
+    "hours": [
+      "Monday – Friday: 8:00 – 22:00",
+      "Saturday – Sunday: 9:00 – 23:00"
+    ],
+    "messaging": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/15550100100"
+      }
+    ],
+    "social": [
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/example"
+      }
+    ]
+  },
+  "maps": {
+    "lat": 40.748817,
+    "lng": -73.985428,
+    "providers": [
+      "google",
+      "waze"
+    ],
+    "custom": []
+  },
+  "footer": "© {year} {name}. All rights reserved.",
+  "labels": {
+    "skipLink": "Skip to the menu",
+    "nav": "Main navigation",
+    "navMenu": "Menu",
+    "navGallery": "Gallery",
+    "navContact": "Contact",
+    "heroButton": "View the menu",
+    "menuTitle": "Menu",
+    "categoriesNav": "Menu categories",
+    "searchLabel": "Search the menu",
+    "searchPlaceholder": "Search for a dish or drink…",
+    "searchFound": "{count} items found.",
+    "searchNone": "No items found.",
+    "emptyMessage": "Nothing matches your search. Try another word.",
+    "loadError": "The menu could not be loaded. Please reload the page.",
+    "galleryTitle": "Gallery",
+    "contactTitle": "Contact & location",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Opening hours",
+    "callButton": "Call us",
+    "directionsTitle": "Directions",
+    "messagingTitle": "Message us",
+    "socialTitle": "Follow us",
+    "viewPhoto": "View a larger photo of {name}",
+    "viewGalleryPhoto": "View larger photo {number}",
+    "lightboxLabel": "Photo viewer",
+    "lightboxClose": "Close",
+    "lightboxPrev": "Previous photo",
+    "lightboxNext": "Next photo",
+    "lightboxCounter": "{current} of {total}"
+  }
+}

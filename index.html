@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- seo:start — `npm run build` rewrites this block from data/site.json; in development main.js does it at runtime. -->
+  <title>Sample Cafe | Menu</title>
+  <meta name="description" content="Menu of Sample Cafe: coffee, pizza, burgers, sandwiches, salads, pasta and desserts.">
+  <meta name="theme-color" content="#f7f1e6">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sample Cafe">
+  <meta property="og:title" content="Sample Cafe | Menu">
+  <meta property="og:description" content="Menu of Sample Cafe: coffee, pizza, burgers, sandwiches, salads, pasta and desserts.">
+  <meta property="og:image" content="images/brand/og-image.jpg">
+  <link rel="icon" href="images/brand/favicon.ico" sizes="any">
+  <link rel="icon" href="images/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="images/brand/apple-touch-icon.png">
+  <!-- seo:end -->
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu" data-label="skipLink">Skip to the menu</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#top" dir="auto"><img class="brand__logo" data-logo src="images/brand/logo.png" alt="" width="36" height="36" hidden><span data-site-name>Sample Cafe</span></a>
+      <nav data-label-aria="nav" aria-label="Main navigation">
+        <a class="nav-link" href="#menu" data-label="navMenu">Menu</a>
+        <a class="nav-link" href="#gallery" data-label="navGallery">Gallery</a>
+        <a class="nav-link" href="#contact" data-label="navContact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <img class="hero__logo" id="hero-logo" data-logo src="images/brand/logo.png" alt="" width="132" height="132" hidden>
+        <p class="hero__eyebrow" id="hero-eyebrow"></p>
+        <h1 class="hero__title" id="hero-title" dir="auto"></h1>
+        <p class="hero__text" id="hero-text" hidden></p>
+        <a class="button" href="#menu" data-label="heroButton">View the menu</a>
+      </div>
+    </section>
+
+    <section class="menu" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <h2 class="menu__title" id="menu-title" data-label="menuTitle">Menu</h2>
+        <div class="search" id="search-block">
+          <label class="search__label" for="menu-search" data-label="searchLabel">Search the menu</label>
+          <input class="search__input" id="menu-search" type="search" autocomplete="off" enterkeyhint="search">
+        </div>
+        <p class="visually-hidden" id="search-status" role="status" aria-live="polite"></p>
+      </div>
+
+      <div class="category-nav" id="category-nav-wrap">
+        <div class="container">
+          <nav data-label-aria="categoriesNav" aria-label="Menu categories"><ul class="category-nav__list" id="category-nav"></ul></nav>
+        </div>
+      </div>
+
+      <div class="container" id="menu-content"></div>
+      <div class="container"><p class="empty" id="empty-message" hidden></p></div>
+    </section>
+
+    <section class="gallery" id="gallery" aria-labelledby="gallery-title" hidden>
+      <div class="container">
+        <h2 class="section-title" id="gallery-title" data-label="galleryTitle">Gallery</h2>
+        <ul class="gallery__grid" id="gallery-grid"></ul>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title" id="contact-title" data-label="contactTitle">Contact &amp; location</h2>
+        <dl class="contact__list">
+          <div class="contact__row" id="row-phone" hidden>
+            <dt data-label="phone">Phone</dt>
+            <dd><a class="contact__phone" id="contact-phone" dir="ltr"></a></dd>
+          </div>
+          <div class="contact__row" id="row-address" hidden>
+            <dt data-label="address">Address</dt>
+            <dd id="contact-address"></dd>
+          </div>
+          <div class="contact__row" id="row-hours" hidden>
+            <dt data-label="hours">Opening hours</dt>
+            <dd><ul class="contact__hours" id="contact-hours"></ul></dd>
+          </div>
+        </dl>
+        <div class="contact__actions">
+          <a class="button" id="call-button" data-label="callButton" hidden>Call us</a>
+        </div>
+
+        <div class="contact__block" id="maps-list-block" hidden>
+          <h3 class="contact__block-title" data-label="directionsTitle">Directions</h3>
+          <ul class="maps" id="maps-list"></ul>
+        </div>
+        <div class="contact__block" id="messaging-list-block" hidden>
+          <h3 class="contact__block-title" data-label="messagingTitle">Message us</h3>
+          <ul class="contact__links" id="messaging-list"></ul>
+        </div>
+        <div class="contact__block" id="social-list-block" hidden>
+          <h3 class="contact__block-title" data-label="socialTitle">Follow us</h3>
+          <ul class="contact__links" id="social-list"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="brand" data-site-name dir="auto">Sample Cafe</span>
+      <a class="footer__phone" id="footer-phone" dir="ltr" hidden></a>
+      <small id="footer-text"></small>
+    </div>
+  </footer>
+</body>
+</html>
